@@ -4,6 +4,8 @@ $number1 = $_GET["Number1"];
 $number2 = $_GET["Number2"];
 $op = $_GET["op"];
 
+
+
 if(!empty($number1) && !empty($number2 && !empty($op))){
 if($op === "+"){
 $result = $_GET["Number1"] + $_GET["Number2"];
